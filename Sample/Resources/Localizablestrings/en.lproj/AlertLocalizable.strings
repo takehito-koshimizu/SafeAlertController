@@ -1,0 +1,12 @@
+/* 
+  AlertLocalizable.strings
+  SafeAlertController
+
+  Created by Takehito Koshimizu on 2018/07/28.
+  Copyright © 2018年 Takehito Koshimizu. All rights reserved.
+*/
+
+"title" = "Title😃";
+"message" = "Message🐸";
+"default" = "Default🌱";
+"cancel" = "Cancel💫";

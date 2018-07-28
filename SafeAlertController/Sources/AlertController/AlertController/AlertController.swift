@@ -41,6 +41,7 @@ public struct AlertController<State, StringConvertible> where State: AlertBuilde
 }
 
 // MARK: - Message
+/// Title Message Appendable
 public extension AlertController where State: TitleMessageAppendable {
 
     /// Set the title and message of the alert controller.
@@ -57,6 +58,7 @@ public extension AlertController where State: TitleMessageAppendable {
 }
 
 // MARK: - TextFieldAppendable
+/// TextField Appendable
 public extension AlertController where State: TextFieldAppendable {
     
     /// Add a text field to the alert controller.
@@ -70,6 +72,7 @@ public extension AlertController where State: TextFieldAppendable {
 }
 
 // MARK: - PreferredActionAppendable
+/// Preferred Action Appendable
 public extension AlertController where State: PreferredActionAppendable {
 
     /// Add a preferred default action to the alert controller.
@@ -94,6 +97,7 @@ public extension AlertController where State: PreferredActionAppendable {
 }
 
 // MARK: - ActionAppendable
+/// Action Appendable
 public extension AlertController where State: ActionAppendable {
 
     /// Add a default action to the alert controller.
@@ -118,6 +122,7 @@ public extension AlertController where State: ActionAppendable {
 }
 
 // MARK: - CancelAppendable
+/// Cancel Appendable
 public extension AlertController where State: CancelAppendable {
 
     /// Add a cancel action to the alert controller.

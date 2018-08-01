@@ -11,7 +11,9 @@
 public protocol TitleMessageAppendable {
 
     /// State after adding title and massege.
-    associatedtype TitleMessageAppended: AlertBuilderState
+    associatedtype AlertTitleMessageAppended: AlertBuilderState
+    /// State after adding title and massege.
+    associatedtype ActionSheetTitleMessageAppended: AlertBuilderState
 }
 
 // MARK: -
@@ -49,8 +51,5 @@ public protocol CancelAppendable {
 // MARK: -
 /// AlertPresentable
 public protocol AlertPresentable {
-
-    /// Style for Alert Builder
-    associatedtype Style: AlertControllerStyle
 }
 

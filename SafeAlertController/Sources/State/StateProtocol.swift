@@ -11,9 +11,9 @@
 public protocol TitleMessageAppendable {
 
     /// State after adding title and massege.
-    associatedtype AlertTitleMessageAppended: AlertBuilderState
+    associatedtype AlertTitleMessageAppended
     /// State after adding title and massege.
-    associatedtype ActionSheetTitleMessageAppended: AlertBuilderState
+    associatedtype ActionSheetTitleMessageAppended
 }
 
 // MARK: -
@@ -21,7 +21,7 @@ public protocol TitleMessageAppendable {
 public protocol TextFieldAppendable {
 
     /// State after adding preferred action.
-    associatedtype TextFieldAppended: AlertBuilderState
+    associatedtype TextFieldAppended
 }
 
 // MARK: -
@@ -29,7 +29,7 @@ public protocol TextFieldAppendable {
 public protocol PreferredActionAppendable {
 
     /// State after adding preferred action.
-    associatedtype PreferredActionAppended: AlertBuilderState
+    associatedtype PreferredActionAppended
 }
 
 // MARK: -
@@ -37,7 +37,7 @@ public protocol PreferredActionAppendable {
 public protocol ActionAppendable {
 
     /// State after adding action.
-    associatedtype ActionAppended: AlertBuilderState
+    associatedtype ActionAppended
 }
 
 // MARK: -
@@ -45,7 +45,7 @@ public protocol ActionAppendable {
 public protocol CancelAppendable {
 
     /// State after adding cancel action.
-    associatedtype CancelAppended: AlertBuilderState
+    associatedtype CancelAppended
 }
 
 // MARK: -

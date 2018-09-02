@@ -13,7 +13,6 @@
 		AB09C923210B4A050030E2E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB09C921210B4A050030E2E5 /* Main.storyboard */; };
 		AB09C925210B4A060030E2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB09C924210B4A060030E2E5 /* Assets.xcassets */; };
 		AB09C928210B4A060030E2E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB09C926210B4A060030E2E5 /* LaunchScreen.storyboard */; };
-		AB3AF08C213B8F370067413E /* RawBuilder+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3AF08B213B8F370067413E /* RawBuilder+UIAlertController.swift */; };
 		AB8DE1252112303900534A36 /* RawBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DE1242112303900534A36 /* RawBuilder.swift */; };
 		AB9FCDBB2108AE4D003649B0 /* SafeAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9FCDB92108AE4D003649B0 /* SafeAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB9FCDD92108AF1E003649B0 /* AlertBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FCDC82108AF1E003649B0 /* AlertBuilderState.swift */; };
@@ -59,7 +58,6 @@
 		AB09C924210B4A060030E2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB09C927210B4A060030E2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB09C929210B4A060030E2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB3AF08B213B8F370067413E /* RawBuilder+UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RawBuilder+UIAlertController.swift"; sourceTree = "<group>"; };
 		AB8DE1242112303900534A36 /* RawBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawBuilder.swift; sourceTree = "<group>"; };
 		AB9FCDB62108AE4D003649B0 /* SafeAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafeAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9FCDB92108AE4D003649B0 /* SafeAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeAlertController.h; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				AB8DE1242112303900534A36 /* RawBuilder.swift */,
-				AB3AF08B213B8F370067413E /* RawBuilder+UIAlertController.swift */,
 			);
 			path = RawBuilder;
 			sourceTree = "<group>";
@@ -343,7 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB9FCDD92108AF1E003649B0 /* AlertBuilderState.swift in Sources */,
-				AB3AF08C213B8F370067413E /* RawBuilder+UIAlertController.swift in Sources */,
 				AB8DE1252112303900534A36 /* RawBuilder.swift in Sources */,
 				ABC06CA32116CA52007372D1 /* SafeBuilder+UIAlertController.swift in Sources */,
 				AB9FCDDC2108AF1E003649B0 /* SafeBuilder.swift in Sources */,
